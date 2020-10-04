@@ -1,0 +1,323 @@
+header{
+	height: 70px;
+	padding: 20px;
+	background-color: #ffffff;
+}
+#wrapper {
+	width: 960px;
+	background-color: #cccccc;
+	margin: auto;
+	max-width: 100%;
+}
+body{
+	background-color: #99ccff;
+	font-size: 16px;
+	font-family: Verdana;
+	line-height: 1.5;
+	position: relative;
+	box-sizing: border-box;
+	width:100%;
+	height: 100%;
+	overflow-x: hidden;
+}
+.logo{
+	position: relative;
+	float:left;
+}
+ul{
+	list-style: none;
+	float:right;
+	padding-top: 30px;
+}
+ul li {
+	display:inline;
+	}
+a{
+	text-decoration: none;
+	font-size: 20px;
+}
+a:link{
+	color:#000000;			
+}
+a:visited{
+	color: #4e8599;
+}
+a:hover{
+	background-color: #0832a3;
+	border-radius: 20px;
+	box-shadow: 5px 0px 5px 2px grey;
+	padding:5px;
+
+}
+a:fokus{
+	color: #bdb36a;
+}
+ul li a:active{
+	color: blue;
+}
+
+nav ul li a{
+	text-transform: uppercase;
+	padding:5px ;
+}
+label {
+	margin: 0 40px 0 0 ;
+	font-size:26px;
+	display:none;
+	width: 26px;
+	float:right;
+}
+#toggle{
+	display: none;
+}
+.slika_1{
+	width: 100%;
+	height: auto;
+}
+.text{
+	padding: 20px;
+}
+.text h2{
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+}
+footer{
+	height: 40px;
+	background-color: #ffffff;
+	text-align: right;
+	padding: 20px ;
+	clear:both;
+}
+section{
+	padding:10px;
+}
+.banner{
+	position:absolute;
+	float:right;
+	margin:-20px 220px;
+}
+.mica{
+	width:250px;
+	height: auto;
+	position: absolute;
+	left: 30px;
+	top: 300px;
+}
+.daisy{
+	width: 250px;
+	height: auto;
+	position:absolute;
+	right: 30px;
+	top: 300px;
+}
+.left{
+	float:left;
+	width: 35%;
+}
+.left p{
+	margin:0;
+}
+.left ul {
+	padding-top:0px;
+}
+.left ul li{
+	display:inline-block;
+
+}
+.right{
+	float:left;
+	width:65%;
+}
+.gumb{
+	text-align: right;
+	padding: 10px;
+}
+.box{
+	box-sizing:border-box;
+	padding: 15px;
+}
+.box:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.cont1{
+	float:left;
+	max-width: 50%;
+	padding: 0px 15px;
+}
+.active {
+	background-color: #cccccc;
+	border-radius: 20px;
+	box-shadow: 5px 0px 5px 2px grey;
+}
+.slika_2{
+	width: 100%;
+}
+.caption{
+	text-align: center;
+}
+.link_cjenik1{
+	clear: left;
+	text-align: right;
+	padding: 15px;
+	font-style:  italic;
+	font-weight: bold;
+}
+.cont2{
+	float:right;
+	max-width: 50%;
+	padding: 15px 0px;
+}
+.slika_3{
+	width:100%;
+}
+.cont3{
+	float:left;
+	max-width: 50%;
+	padding: 0px 15px;
+}
+.slika_4{
+	width:100%;
+}
+.link_cjenik2{
+	clear: right;
+	text-align: left;
+	padding: 15px;
+	font-style:  italic;
+	font-weight: bold;
+}
+.table{
+	padding:15px;
+}
+.cjenik{
+	width: 100%;
+	border-collapse: collapse;
+}
+.cjenik td, th {
+	border-bottom: 1px solid #ddd;
+}
+.cjenik th{
+	text-align: left;
+
+}
+.cjenik tr:hover{
+	background-color:#ddd;
+}
+.contact{
+	border-radius:15px;
+	padding: 20px;
+	width:50%;
+	height:330px;
+	margin:20px 230px;
+	text-align: center;
+	background-color: #003366;
+	line-height: 35px;
+}
+.contact textarea{
+	width:75%;
+	height: 180px;
+	border-radius:15px;
+	padding: 5px;
+	margin-top: 5px;
+}
+.contact input {
+	border-radius: 10px;
+	padding:5px;
+}
+.gmaps {
+	margin: 20px 305px;
+	border-radius: 50%;
+	width: 350px;
+	height: 350px;
+}
+.kdn{
+	text-align: center;
+	font-size: 30px; 
+	font-family: "Pacifico", cursive;
+}
+
+
+/* Tablet */
+@media only screen and (max-width: 1024px){
+	.daisy, .mica {
+	 	display:none;
+	}	
+	.banner{
+		font-size: 12px;
+		margin: -20px 180px;
+		padding: 5px;
+
+	}
+	.menu ul{
+		padding:5px;
+		font-size: 10px;
+		margin-top: 40px;
+	}
+	.left ul {
+		float: none;
+		display:inline-block;
+	}
+	.gmaps{
+		margin:auto;
+	}
+	.contact{
+		margin:auto;
+	}
+}
+
+
+/*  Mobile  */
+@media only screen and (max-width: 768px) {
+	label {
+		display: block;
+		text-align: right;
+		cursor: pointer;
+	}
+	.menu{
+		text-align: left;
+		width:100%;
+		display:none;
+	}
+	.menu a{
+		display:block; 
+		margin:0;
+		background-color: #cccccc;
+	}
+	#toggle:checked + .menu {
+		display: block;
+	}
+	body{
+		margin: 0;
+		padding:5px;	
+	}
+	footer {
+		text-align: center;
+		padding-bottom: 40px;
+	}
+	.text{
+		text-align: justify;
+	}
+	.left, .right{
+		width:100%;
+	}
+	.banner{
+		display:none;
+	}
+	.contact{
+		margin:auto;
+		padding: 25px;
+	}
+	.contact textarea{
+		max-height: 150px;
+		width:100%;
+	}
+	.gmaps{
+		padding: 15px;
+		margin:auto;
+		width: 50%;
+		height: 50%;
+	}
+
+}
+
